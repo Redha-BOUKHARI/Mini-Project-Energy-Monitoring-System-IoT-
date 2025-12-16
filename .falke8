@@ -1,0 +1,15 @@
+[flake8]
+# Set maximum line length to 100 characters (standard is 79)
+max-line-length = 100
+
+# Exclude folders that we don't want to check
+exclude =
+    .git,
+    __pycache__,
+    venv,
+    .pytest_cache
+
+# Ignore some minor errors
+# E203: Whitespace before ':'
+# W503: Line break before binary operator
+ignore = E203, W503

@@ -1,0 +1,21 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Environnement Virtuel ---
+# C'est ici qu'on ignore le dossier venv qui est à la racine
+venv/
+env/
+ENV/
+
+# --- VS Code (Configuration locale) ---
+.vscode/
+*.code-workspace
+
+# --- Variables d'environnement (Sécurité) ---
+.env
+
+# --- Système d'exploitation ---
+.DS_Store
+Thumbs.db
