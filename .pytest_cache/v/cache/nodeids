@@ -1,0 +1,6 @@
+[
+  "tests/test_project.py::test_analyzer_high_value",
+  "tests/test_project.py::test_analyzer_normal_value",
+  "tests/test_project.py::test_sensor_data_structure",
+  "tests/test_project.py::test_sensor_initialization"
+]

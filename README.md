@@ -101,13 +101,14 @@ To run the tests, execute:
 python -m unittest discover tests
 
 ```
-
+![run python tests](captures/pytest.png)
 ### B. Code Linting (Flake8)To ensure the code follows **PEP 8** standards, we use **Flake8**. Run the following command:
 
 ```bash
 flake8 src/
 
 ```
+![Run Flake tests](captures/flake.png)
 
 ---
 
@@ -145,7 +146,7 @@ Pour garantir la fiabilité et la qualité du code, ce projet utilise des tests 
 Les tests sont situés dans le dossier `tests/`. Pour lancer l'ensemble des tests (vérification de la logique d'analyse, etc.), exécutez la commande suivante à la racine du projet :
 
 ```bash
-python -m unittest discover tests
+pytest
 
 ```
 
