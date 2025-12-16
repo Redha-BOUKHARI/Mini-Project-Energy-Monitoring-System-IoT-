@@ -136,3 +136,27 @@ python src/main.py
 
 *Figure 4: Historical view of anomalies in the database.*
 
+
+## ✅ 7. Tests et Qualité du Code
+
+Pour garantir la fiabilité et la qualité du code, ce projet utilise des tests unitaires et un linter.
+
+### A. Exécution des Tests Unitaires
+Les tests sont situés dans le dossier `tests/`. Pour lancer l'ensemble des tests (vérification de la logique d'analyse, etc.), exécutez la commande suivante à la racine du projet :
+
+```bash
+python -m unittest discover tests
+
+```
+
+### B. Vérification du Code (Flake8)
+
+Nous utilisons **Flake8** pour nous assurer que le code respecte les standards PEP 8 (style, syntaxe, imports inutilisés).
+
+Pour lancer l'analyse sur le code source :
+
+```bash
+flake8 src/
+
+```
+

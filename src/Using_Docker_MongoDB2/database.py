@@ -8,8 +8,8 @@ class DatabaseHandler:
 
     def __init__(
         self,
-        #connection_uri="mongodb://localhost:27017/", for local testing
-        #CONNECT TO THE DOCKER CONTAINER MONGODB
+        # connection_uri="mongodb://localhost:27017/", for local testing
+        # CONNECT TO THE DOCKER CONTAINER MONGODB
         connection_uri="mongodb://admin:securepassword@localhost:27018/?authSource=admin",
         db_name="energy_db",
         collection_name="measures"
